@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "title": "Classic White T-Shirt",
+    "price": 19.99,
+    "description": "Soft cotton tee with a relaxed fit for everyday wear.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": { "rate": 4.3, "count": 120 }
+  },
+  {
+    "id": 2,
+    "title": "Elegant Gold Necklace",
+    "price": 129.0,
+    "description": "Minimalist 14k gold plated necklace with adjustable clasp.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": { "rate": 4.7, "count": 80 }
+  },
+  {
+    "id": 3,
+    "title": "Leather Backpack",
+    "price": 79.5,
+    "description": "Durable leather backpack with padded laptop sleeve.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "rating": { "rate": 4.5, "count": 65 }
+  },
+  {
+    "id": 4,
+    "title": "Lightweight Running Shoes",
+    "price": 59.99,
+    "description": "Breathable mesh upper with supportive cushioning.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+    "rating": { "rate": 4.2, "count": 210 }
+  },
+  {
+    "id": 5,
+    "title": "Silver Stud Earrings",
+    "price": 24.95,
+    "description": "Hypoallergenic sterling silver studs with secure backing.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71yaIMpZM2L._AC_UL640_QL65_ML3_.jpg",
+    "rating": { "rate": 4.8, "count": 95 }
+  },
+  {
+    "id": 6,
+    "title": "Canvas Tote Bag",
+    "price": 22.0,
+    "description": "Spacious canvas tote with inner pocket and magnetic closure.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "rating": { "rate": 4.4, "count": 132 }
+  },
+  {
+    "id": 7,
+    "title": "Slim Fit Chinos",
+    "price": 44.5,
+    "description": "Stretch cotton chinos with tapered leg and mid-rise waist.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+    "rating": { "rate": 4.1, "count": 88 }
+  },
+  {
+    "id": 8,
+    "title": "Smart Fitness Watch",
+    "price": 99.99,
+    "description": "Track workouts, heart rate, and sleep with water resistance.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    "rating": { "rate": 4.6, "count": 300 }
+  },
+  {
+    "id": 9,
+    "title": "Noise Cancelling Headphones",
+    "price": 149.99,
+    "description": "Over-ear design with active noise cancellation and 30h battery.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+    "rating": { "rate": 4.5, "count": 185 }
+  },
+  {
+    "id": 10,
+    "title": "Cotton Midi Dress",
+    "price": 54.99,
+    "description": "Flowy cotton dress with waist tie and side pockets.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_UX679_.jpg",
+    "rating": { "rate": 4.3, "count": 112 }
+  },
+  {
+    "id": 11,
+    "title": "Minimal Desk Lamp",
+    "price": 35.0,
+    "description": "LED lamp with adjustable arm and warm white lighting.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+    "rating": { "rate": 4.0, "count": 73 }
+  },
+  {
+    "id": 12,
+    "title": "Classic Denim Jacket",
+    "price": 68.0,
+    "description": "Vintage wash denim jacket with metal hardware.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "rating": { "rate": 4.6, "count": 144 }
+  }
+]
+
