@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopSphere • Product Listing</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container bar-inner">
+        <div class="brand">ShopSphere</div>
+        <nav class="nav">
+          <a href="#" aria-label="Home">Home</a>
+          <a href="#" aria-label="Collections">Collections</a>
+          <a href="#" aria-label="About">About</a>
+          <button class="btn ghost">Sign in</button>
+          <button class="btn primary">Sign up</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Summer 2025</p>
+          <h1>Elevate your everyday wardrobe</h1>
+          <p class="lede">
+            Discover curated picks across apparel, tech and accessories. Filter
+            by category, sort by price, or search for the perfect piece.
+          </p>
+          <div class="actions">
+            <button class="btn primary">Shop now</button>
+            <button class="btn ghost">Explore categories</button>
+          </div>
+        </div>
+        <div class="hero-card" role="presentation">
+          <div class="hero-label">Staff picks</div>
+          <div class="hero-item">
+            <div>
+              <p class="hero-name">Minimal leather backpack</p>
+              <p class="hero-price">$79.50</p>
+            </div>
+            <div class="hero-tag">New</div>
+          </div>
+          <div class="hero-progress">
+            <div class="hero-progress-bar"></div>
+          </div>
+          <p class="muted">Ships in 2-3 days • Free returns</p>
+        </div>
+      </section>
+
+      <section class="layout">
+        <aside class="filters" aria-label="Filters">
+          <div class="filters-header">
+            <h2>Filters</h2>
+            <button class="link">Clear all</button>
+          </div>
+          <div class="filter-block">
+            <h3>Search</h3>
+            <input
+              type="search"
+              placeholder="Search products..."
+              aria-label="Search products"
+            />
+          </div>
+          <div class="filter-block">
+            <h3>Category</h3>
+            <label class="checkbox">
+              <input type="checkbox" checked />
+              <span>All</span>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" />
+              <span>Women</span>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" />
+              <span>Men</span>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" />
+              <span>Electronics</span>
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" />
+              <span>Jewelery</span>
+            </label>
+          </div>
+          <div class="filter-block">
+            <h3>Sort</h3>
+            <label class="radio">
+              <input type="radio" name="sort" checked />
+              <span>Featured</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sort" />
+              <span>Price: Low to High</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="sort" />
+              <span>Price: High to Low</span>
+            </label>
+          </div>
+        </aside>
+
+        <section class="products" aria-label="Product listing">
+          <div class="products-header">
+            <div>
+              <p class="eyebrow">Curated for you</p>
+              <h2>Product Listing</h2>
+            </div>
+            <div class="controls">
+              <select aria-label="Sort by price">
+                <option>Featured</option>
+                <option>Price: Low to High</option>
+                <option>Price: High to Low</option>
+              </select>
+              <select aria-label="Filter by category">
+                <option>All categories</option>
+                <option>Women</option>
+                <option>Men</option>
+                <option>Electronics</option>
+                <option>Jewelery</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <div class="badge">New</div>
+              <img
+                src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+                alt="Canvas tote bag"
+              />
+              <div class="card-body">
+                <p class="category">Women's clothing</p>
+                <h3>Canvas tote bag</h3>
+                <p class="price">$22.00</p>
+              </div>
+            </article>
+            <article class="card">
+              <img
+                src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+                alt="Smart fitness watch"
+              />
+              <div class="card-body">
+                <p class="category">Electronics</p>
+                <h3>Smart fitness watch</h3>
+                <p class="price">$99.99</p>
+              </div>
+            </article>
+            <article class="card">
+              <img
+                src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+                alt="Classic denim jacket"
+              />
+              <div class="card-body">
+                <p class="category">Men's clothing</p>
+                <h3>Classic denim jacket</h3>
+                <p class="price">$68.00</p>
+              </div>
+            </article>
+            <article class="card">
+              <img
+                src="https://fakestoreapi.com/img/71yaIMpZM2L._AC_UL640_QL65_ML3_.jpg"
+                alt="Silver stud earrings"
+              />
+              <div class="card-body">
+                <p class="category">Jewelery</p>
+                <h3>Silver stud earrings</h3>
+                <p class="price">$24.95</p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand">ShopSphere</div>
+          <p class="muted">Modern storefront experience powered by Next.js.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
