@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { fetchProductById, fetchProducts } from "@/lib/products";
@@ -28,12 +27,11 @@ export default async function ProductPage({ params }: Params) {
 
       <section className="grid gap-8 rounded-2xl border border-border bg-white p-6 shadow-subtle lg:grid-cols-2">
         <div className="relative h-80 rounded-xl bg-surface-muted">
-          <Image
+          <img
             src={product.image}
             alt={product.title}
-            fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-contain"
+            loading="eager"
+            className="h-full w-full object-contain"
           />
         </div>
         <div className="space-y-4">

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Product } from "@/types";
 
@@ -10,13 +9,11 @@ export function ProductCard({ product }: Props) {
   return (
     <article className="group relative flex flex-col rounded-xl border border-border bg-white p-4 shadow-subtle transition hover:-translate-y-1 hover:shadow-card">
       <div className="relative mb-3 flex h-44 items-center justify-center overflow-hidden rounded-lg bg-surface-muted">
-        <Image
+        <img
           src={product.image}
           alt={product.title}
-          fill
-          sizes="(max-width:768px) 50vw, 240px"
-          className="object-contain transition duration-300 group-hover:scale-105"
-          priority={product.id < 4}
+          loading={product.id < 4 ? "eager" : "lazy"}
+          className="h-full w-full object-contain transition duration-300 group-hover:scale-105"
         />
       </div>
       <p className="text-xs uppercase tracking-wide text-brand-muted">
